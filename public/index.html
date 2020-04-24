@@ -1,17 +1,193 @@
 <!DOCTYPE html>
 <html class="no-js" lang="pt-br">
-	<head>
-		<meta charset="utf-8" />
-		<title>Instagram Codenation</title>
-		<meta name="description" content="" />
-		<link rel="shortcut icon" type="image/png" href="/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href="css/normalize.css" />
-		<link rel="stylesheet" href="css/fontawesome.min.css" />
-		<link rel="stylesheet" href="css/main.css" />
-	</head>
-	<body>
+<head>
+	<meta charset="utf-8" />
+	<title>Instagram Codenation</title>
+	<meta name="description" content="" />
+	<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	</body>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/fontawesome.min.css" />
+	<script src="https://kit.fontawesome.com/5096e01dea.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+
+<div class="template-insta-container">
+	<header>
+		<div class="header-inner">
+			<ul class="header-inner__list no-style-ul">
+				<div class="header-inner__items--left">
+					<li>
+						<a class="header-inner__logo--insta-cam" href="#">
+							<img src="./img/insta-cam.png" alt="" srcset="">
+						</a>
+					</li>
+					<li>
+						<img class="header-inner__logo insta-central" src="./img/instagram-logo.svg" width="100px"
+							alt="Logo central Instagram" srcset="">
+					</li>
+				</div>
+				<div class="header-inner__items--right">
+					<li>
+						<img class="header-inner__logo--insta-igtv" src="./img/igtv-logo.png" alt="Logo IGTV" srcset="">
+					</li>
+					<li>
+						<img class="header-inner__logo--insta-direct" src="./img/direct-logo.png"
+							alt="Logo de mensagens" srcset="">
+					</li>
+				</div>
+			</ul>
+		</div>
+	</header>
+
+	<main>
+
+		<section class="stories">
+			<ul class="stories__list no-style-ul">
+				<li>
+					<a class="stories__item--add" href="#">
+						<img src="./img/profiles/black-panther/black-panther-profile.jpg" alt="">
+						<!-- <div class="border"></div> -->
+						<i class="fa"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="stories__item--watched">
+						<img src="./img/profiles/bruce/bruce-profile.jpg" alt="" srcset="">
+					</a>
+				</li>
+				<li>
+					<a class="stories__item--active">
+						<img src="./img/profiles/carol/carol-profile.jpg" alt="" srcset="">
+					</a>
+				</li>
+				<li>
+					<a class="stories__item--active">
+						<img src="./img/profiles/yoda/yoda-profile.jpg" alt="" srcset="">
+					</a>
+				</li>
+				<li>
+					<a class="stories__item--active">
+						<img src="./img/profiles/gamora/gamora-profile.jpg" alt="" srcset="">
+					</a>
+				</li>
+			</ul>
+
+		</section>
+		<section class="feed">
+			<div class="feed__list-cards">
+				<figure class="card-box">
+					<div class="card-box__inner">
+						<ul class="card-box__header">
+							<li class="card-box__header--user-post">
+								<div class="user-info">
+									<img src="./img/profiles/black-panther/black-panther-profile.jpg" width="40px"
+										alt="" srcset="">
+									<p>username</p>
+								</div>
+								<div class="more-options">
+									<a href="#">
+										<img src="./img/dots-menu.png" alt="" srcset="">
+									</a>
+								</div>
+							</li>
+						</ul>
+						<img src="./img/profiles/black-panther/black-panther-3.jpg" alt="" srcset="">
+						<ul class="card-box__interaction">
+							<li>
+								<i></i>
+							</li>
+							<li>
+								<i></i>
+							</li>
+							<li>
+								<i></i>
+							</li>
+							<li>
+								<i></i>
+							</li>
+						</ul>
+
+						<figcaption>
+							<div class="card-box__subtitle">
+								<h3></h3>
+								<a href="#" class="card-box__subtitle--hashs"></a>
+								<p></p>
+							</div>
+							<div class="card-box__coments">
+								<div class="card-box__header--user-photo">
+									<img src="" alt="" srcset="">
+									<p></p>
+								</div>
+							</div>
+						</figcaption>
+					</div>
+				</figure>
+			</div>
+		</section>
+
+	</main>
+	<aside class="more-infos only-desk">
+		<div class="more-infos__profiles">
+			<div class="more-infos-profiles--user"></div>
+			<div class="more-infos-profiles--following">
+				<ul class="stories__list no-style-ul">
+					<li>
+						<a href="#" class="stories__item--watched">
+							<img src="./img/profiles/gamora/gamora-profile.jpg" alt="" srcset="">
+							<i class="fa"></i>
+						</a>
+					</li>
+					<li>
+						<a class="stories__item--active"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="more-infos-profiles--suggested">
+				<ul class="stories__list no-style-ul">
+					<li>
+						<a href="#" class="stories__item--watched">
+					<li class="fa"></li>
+					</a>
+					</li>
+					<li>
+						<a class="stories__item--active"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="more-infos-profiles--about-insta">
+				<p></p>
+			</div>
+		</div>
+	</aside>
+
+	<footer>
+		<ul class="actions-footer">
+			<li>
+				<i></i>
+			</li>
+			<li>
+				<i></i>
+			</li>
+			<li>
+				<i class="actions-footer__item--new-post"></i>
+			</li>
+			<li>
+				<i></i>
+			</li>
+			<li>
+				<i></i>
+			</li>
+		</ul>
+	</footer>
+
+</div>
+
+
+<body>
+
+</body>
+
 </html>
